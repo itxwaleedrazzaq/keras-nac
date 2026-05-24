@@ -1,21 +1,13 @@
-# keras-nac
+## keras-nac
 
-TensorFlow/Keras implementations of the following research architectures:
+This repository contains TensorFlow/Keras implementations of the following research papers:
 
-- **FLUID**  
-  Continuous-Time Hyperconnected Sparse Transformer for Sink-Free Learning
-
-- **NAC**  
-  Neuronal Attention Circuit for Representation Learning
-
-- **NSAC**  
-  Neuronal Stochastic Attention Circuit for Probabilistic Representation Learning
-
+- FLUID: Continuous-Time Hyperconnected Sparse Transformer for Sink-Free Learning
+- Neuronal Attention Circuit (NAC) for Representation Learning
+- Neuronal Stochastic Attention Circuit (NSAC) for Probabilistic Representation Learning
 ---
 
-## Installation
-
-Install from PyPI:
+### Installation
 
 ```bash
 pip install keras-nac
@@ -23,20 +15,20 @@ pip install keras-nac
 
 ---
 
-## Requirements
+### Requirements
 
 - Python >= 3.10
 - TensorFlow >= 2.18.0
 
 ---
 
-# Usage Examples
+## Usage Examples
 
 These layers can be used as drop-in components inside TensorFlow/Keras models.
 
 ---
 
-# 1. Liquid Attention Network (LAN)
+### 1. Liquid Attention Network (LAN)
 
 ```python
 import tensorflow as tf
@@ -68,7 +60,7 @@ model.compile(
 
 ---
 
-# 2. FLUID Transformer
+### 2. FLUID Transformer
 
 ```python
 import tensorflow as tf
@@ -110,7 +102,7 @@ model.compile(
 
 ---
 
-# 3. Neuronal Attention Circuit (NAC)
+### 3. Neuronal Attention Circuit (NAC)
 
 ```python
 import tensorflow as tf
@@ -148,7 +140,7 @@ model.compile(
 
 ---
 
-# 4. Neuronal Stochastic Attention Circuit (NSAC)
+### 4. Neuronal Stochastic Attention Circuit (NSAC)
 
 ```python
 import tensorflow as tf
@@ -191,13 +183,20 @@ model.compile(
 ```
 
 ---
-
 ## Citation
 
-If you use this package in research, please cite the corresponding papers.
+```bibtex
+@article{razzaq2025neuronal,
+  title={Neuronal Attention Circuit (NAC) for Representation Learning},
+  author={Razzaq, Waleed and Kanjaraway, Izis and Zhao, Yun-Bo},
+  journal={arXiv preprint arXiv:2512.10282},
+  year={2025}
+}
 
+@article{razzaq2026fluid,
+  title={FLUID: Continuous-Time Hyperconnected Sparse Transformer for Sink-Free Learning},
+  author={Razzaq, Waleed and Zhao, Yun-Bo},
+  journal={arXiv preprint arXiv:2605.04421},
+  year={2026}
+}
 ---
-
-## License
-
-MIT License
