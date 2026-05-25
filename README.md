@@ -22,7 +22,7 @@ pip install keras-nac
 
 ---
 
-## Usage Examples (Spiral) -> [![Open In Colab](https://colab.research.google.com/drive/1Tww65dcYYFDKjx49cTh0u4D8IfqJhVst?usp=sharing)
+## Usage Examples (Spiral) -> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Tww65dcYYFDKjx49cTh0u4D8IfqJhVst?usp=sharing)
 
 These layers can be used as drop-in components inside TensorFlow/Keras models.
 
