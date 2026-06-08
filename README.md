@@ -195,3 +195,9 @@ model.compile(
   year={2026}
 }
 
+@article{razzaq2026neuronal,
+  title={Neuronal Stochastic Attention Circuit (NSAC) for Probabilistic Representation Learning},
+  author={Razzaq, Waleed and Zhao, Yun-Bo},
+  journal={arXiv preprint arXiv:2605.26061},
+  year={2026}
+}
