@@ -147,7 +147,7 @@ class LAN(tf.keras.layers.Layer):
         x = self.gate_in(pair)
         gate_raw = self.gate_out(x)
         gate_raw = tf.reshape(gate_raw, (-1, H, Tq, Tk))
-        phi = tf.nn.relu(gate_raw) # Compute phi
+        phi = tf.math.tanh(gate_raw) # Compute phi
         tau = tf.nn.softplus(gate_raw) + self.tau_epsilon  # Compute tau
 
         return phi, tau, idx
